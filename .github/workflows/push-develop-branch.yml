@@ -7,7 +7,7 @@ on:
       branches: [ integration ]
       paths:
         - 'force-app/**'
-            
+    workflow_dispatch:
 
 # Jobs to be executed
 jobs:
